@@ -1,0 +1,103 @@
+html, body, header, nav, a,
+ul, li, strong, main, button, i,
+section, img, div, h1, h2, h3, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(assets/topography.png);
+    background-size: 600px 600px;
+    font-family: 'Inconsolata', Courier, monospace;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 67px;
+    margin: 45px 0;
+}
+
+h2 {
+    font-size: 45px;
+    margin: 40px 0;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.bio {
+    font-size: 27px;
+}
+
+.subtitle {
+    font-family: 'Merriweather', serif;
+    color: #ff0099;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+header {
+    width: 100%;
+    min-height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+}
+
+.logo {
+    margin-left: 10%;
+    min-width: 47px;
+}
+.separator {
+    text-align: center;
+    margin: 40px;
+}
+
+header nav {
+    margin-right: 10%;
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    padding: 0 30px;
+}
+
+main {
+    padding: 5% 10%;
+}
+
+section > h2 {
+    text-align: center;
+}
+
+a {
+    color: #ff0099;
+    font-weight: bold;
+}
